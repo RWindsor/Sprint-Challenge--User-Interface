@@ -1,0 +1,5 @@
+1. Semantic HTML are tags that tells you exactly how the element will be displayed (ex. <footer> tells the browser that the elements inside are for the footer)
+2. Display:block will organize contents vertically while display: inline will organize the contents horizontally.
+3. Box model: padding, margin, borders, and content
+4. The Y-axis
+5. It can allow developers to quickly share code in an iterative process and it can transfer a lot a data and code very easily.
