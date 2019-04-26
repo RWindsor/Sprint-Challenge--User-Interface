@@ -66,6 +66,24 @@ p {
     line-height: 1.4;
 }
 
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 20px
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    padding: 0px 30px;
+    margin-top: 10px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +161,56 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page CSS */
+
+.container-about-page{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.header{
+    padding: 20px 0px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 20px 0px;
+}  
+
+.button{
+    padding: 5px 40px 5px;
+	border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    width: 165px;
+    background-color: white;
+    margin: 10px;  
+}
+
+hr{
+    border: 1px dashed black;
+    display: block;
+    clear: both;
+}
+
+.header img{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-header{
+    padding: 20px 0px;
 }
