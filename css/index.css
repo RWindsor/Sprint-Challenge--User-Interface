@@ -78,9 +78,9 @@ p {
     text-decoration: none;
     color: black;
     display: inline-flex;
-    flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    padding: 0px 30px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* padding: 0px 30px; */
     margin-top: 10px;
 }
 
@@ -95,6 +95,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img{
+    padding: 20px;
 }
 
 .top-content .text-container {
@@ -119,15 +123,46 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9,.box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background: teal;
+}
+.box2{
+    background: yellow;
+}
+.box3{
+    background: turquoise;
+}
+.box4{
+    background: orange;
+}
+.box5{
+    background: red;
+}
+.box6{
+    background: green;
+}
+.box7{
+    background: purple;
+}
+.box8{
+    background: palevioletred;
+}
+.box9{
+    background: blueviolet;
+}
+.box10{
+    background: blue;
 }
 
 .bottom-content {
@@ -172,6 +207,7 @@ footer nav a {
 
 .header{
     padding: 20px 0px;
+    justify-content: center;
 }
 
 .grid{
@@ -202,7 +238,6 @@ footer nav a {
 hr{
     border: 1px dashed black;
     display: block;
-    clear: both;
 }
 
 .header img{
